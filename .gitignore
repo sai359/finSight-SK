@@ -1,0 +1,51 @@
+# ── Secrets ─────────────────────────────────────────────────────────
+.env
+
+# ── Java / Maven ─────────────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ── Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+*.so
+
+# ── IDE ──────────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+.eclipse/
+.classpath
+.project
+.settings/
+.vscode/
+*.swp
+*.swo
+
+# ── OS ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Docker ───────────────────────────────────────────────────────────
+# Keep docker-compose.yml but ignore local override
+docker-compose.override.yml
+
+# ── Logs ─────────────────────────────────────────────────────────────
+logs/
+*.log
